@@ -1,21 +1,49 @@
 body {
 	padding-top: 70px;
+  background-image:  url('https://static.pexels.com/photos/51343/old-letters-old-letter-handwriting-51343.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 10px;
 }
+
 h1 {
 	text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80px;
+  color: #f2efe8;
+  background-color: #1d2731;
+  width: 35%;
+  border-radius: 25px;
+  font-family: cambria;
 }
+
 img {
-	display: block;
+  display: block;
 	margin-right: auto;
 	margin-left: auto;
+  border:2px solid black;
+  border-radius: 3px;
+  width:40%;
+  height:40%;
 }
+
 p {
+  background-color: #e2d6b7;
+  font-family: cambria;
+  font-size: 18px;
 	width: 60%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+  padding: 0px 10px 20px 10px;
+  border-radius: 5px;
+  border: 1px solid #1d2731;
+  color: #1d2731;
 }
+
 /*Gallery*/
 #gallery {
 	display: block;
@@ -41,7 +69,11 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+    background: #e2d6b7;
+    font-family: cambria;
+    font-size: 20px;
 }
+
 /*End Gallery*/
 /*Hover Effect*/
 /*.hovereffect {
