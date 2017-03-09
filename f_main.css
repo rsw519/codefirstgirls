@@ -44,6 +44,23 @@ p {
   color: #1d2731;
 }
 
+.container {
+ width: 1100px;
+}
+
+#listcontain {
+  background-color: #e2d6b7;
+  border-radius: 5px;
+  border: 1px solid #1d2731;
+  font-family: cambria;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+#form {
+  margin: auto;
+}
+
 /*Gallery*/
 #gallery {
 	display: block;
