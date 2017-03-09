@@ -57,6 +57,10 @@ p {
   padding-top: 5px;
 }
 
+#form {
+  margin: auto;
+}
+
 /*Gallery*/
 #gallery {
 	display: block;
