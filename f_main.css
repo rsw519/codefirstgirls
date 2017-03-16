@@ -63,25 +63,56 @@ p {
 }
 
 /*Gallery*/
+
+#pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+a {
+  font-size: 16px; 
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+
+figcaption {
+  color: #1d2731;
+  background-color: #e2d6b7;
+  font-family: cambria;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 7px;
+  margin-top: 5px;
+  border: solid 2px;
+  border-color: #1d2731;
+}
+
+
+
 #gallery {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 }
+
 div.img {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    width: 400px;
+    height:auto;
+    overflow: hidden; 
 }
 
 div.img:hover {
     border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
 }
 
 div.desc {
